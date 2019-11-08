@@ -13,7 +13,7 @@
           data-ride="carousel"
         >
           <div class="carousel-inner row w-100 mx-auto" role="listbox">
-            <CarouselItem v-for="item in items" :item="item" :key="item.id"></CarouselItem>
+            <CarouselItem1 v-for="item in items" :item="item" :key="item.id"></CarouselItem1>
           </div>
           <!-- Condition for displaying left slider arrow. -->
           <a
@@ -50,7 +50,7 @@ import CarouselItem from "./CarouselItem";
 export default {
   props: ["items", "suggested"],
   components: {
-    CarouselItem
+    CarouselItem1: CarouselItem
   },
   data() {
     return {
