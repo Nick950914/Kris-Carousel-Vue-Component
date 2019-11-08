@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-carousel :items="items" :suggested="suggestVisit"></app-carousel>
+    <Carousel :items="items" :suggested="suggestVisit"></Carousel>
   </div>
 </template>
 
@@ -80,7 +80,7 @@ export default {
     };
   },
   components: {
-    "app-carousel": Carousel
+    Carousel
   }
 };
 </script>
