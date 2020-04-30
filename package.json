@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^3.3.2",
     "git": "^0.1.5",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "register-service-worker": "^1.6.2",
     "slick-carousel": "^1.8.1",
     "vue": "^2.6.10",
